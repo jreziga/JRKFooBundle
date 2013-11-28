@@ -57,7 +57,7 @@ public function registerBundles()
 
 ``` yml
 # app/config/config.yml
-jreziga_foo:
+jrk_foo:
     key: yourKey # Required
     login: yourLogin # Required
     useless: null
