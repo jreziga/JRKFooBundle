@@ -1,0 +1,7 @@
+dépôt github : jreziga
+Service key : jrkfoo
+Service class : JRKFoo
+yml root : jrk_foo
+namespace: JRK
+namebundle : FooBundle
+nameclass : JRKFooBundle

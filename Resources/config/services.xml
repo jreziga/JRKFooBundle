@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+
+<container xmlns="http://symfony.com/schema/dic/services"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+
+    <parameters>
+        <parameter key="jrk_foo.key">null</parameter>
+        <parameter key="jrk_foo.login">null</parameter>
+        <parameter key="jrk_foo.useless">null</parameter>
+        <parameter key="jrk_foo.jrkfoo.service.class">JRK\FooBundle\Services\JRKFoo</parameter>
+    </parameters>
+
+    <services>
+        <service id="JRKFoo" class="%jrk_foo.jrkfoo.service.class%">
+            <argument>%jrk_foo.key%</argument>
+            <argument>%jrk_foo.login%</argument>
+            <argument>%jrk_foo.useless%</argument>
+        </service>
+    </services>
+
+</container>
