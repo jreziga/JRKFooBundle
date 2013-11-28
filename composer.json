@@ -23,7 +23,7 @@
     "target-dir": "JRK/FooBundle",
 	"extra": {
         "branch-alias": {
-            "dev-master": "1.0"
+            "dev-master": "1.0-dev"
         }
     }
 }
