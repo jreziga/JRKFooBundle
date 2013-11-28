@@ -20,5 +20,10 @@
     "autoload": {
         "psr-0": { "JRK\\FooBundle": "" }
     },
-    "target-dir": "JRK/FooBundle"
+    "target-dir": "JRK/FooBundle",
+	"extra": {
+        "branch-alias": {
+            "dev-master": "1.0"
+        }
+    }
 }
